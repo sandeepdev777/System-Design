@@ -1,0 +1,13 @@
+
+in depth article: https://blog.algomaster.io/p/sql-vs-nosql-7-key-differences
+
+
+| Feature                | SQL Databases                | NoSQL Databases                     |
+|------------------------|----------------------------- |-----------------------------        |
+| Data Model             | Relational (tables)          | Document, Key-Value, Graph, Column  |
+| Schema                 | Fixed, predefined            | Dynamic, flexible                   |
+| Scalability            | Vertical scaling             | Horizontal scaling                  |
+| Transactions           | ACID compliant               | BASE, eventual consistency          |
+| Query Language         | SQL                          | Varies (e.g., JSON, CQL)            |
+| Examples               | MySQL, PostgreSQL, Oracle    | MongoDB, Cassandra, Redis           |
+| Best Use Case          | When consistency of data is required | Big data, rapid development |

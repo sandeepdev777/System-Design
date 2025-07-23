@@ -1,0 +1,10 @@
+What is System design?
+System Design is the process of defining the architecture, 
+components, modules, interfaces, and data for a system to satisfy specified requirements.
+
+What are objectives of system design?
+1: Practicality: The system must be designed according to the targeted audience.
+2: Completeness: The system should fulfill all the reequirements.
+3: Efficient: System should make good use of the resources (like time and space).
+4: Reliablity: Tries to design a system that should be failure free for a certain preiod of time.
+5: scalability: The system should handle the high workload( when users get increased);

@@ -1,0 +1,16 @@
+In-Memory database:- It is a type of database in which the data is stored in the RAM of the system ,instead of storing it in 
+                      hard disk. 
+
+Merits: 
+1: Low latency: since the data is stored in RAM so it can be frequently accessed.
+    (note: latency is the time between request and response)
+
+2: High Throughput
+    (note: throughput is basically the number of read and write operation performed over a period of time)   
+
+3: Highly scalable database
+
+4: Provides Caching functionality to retrieve data faster.
+
+Demerits:
+1: Data persistence: Data do not persist after power faliure.

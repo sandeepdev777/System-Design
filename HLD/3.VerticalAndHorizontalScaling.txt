@@ -1,0 +1,19 @@
+Scalability :is the property of a system to handle a growing amount of load by adding resources to the system.
+
+Process of increasing the scalability of system is called "scaling".
+
+ So we have two methods for scaling a system:
+
+ 1: Vertical scaling: https://blog.algomaster.io/p/system-design-vertical-vs-horizontal-scaling
+ 2: Horizontal scaling: https://blog.algomaster.io/p/system-design-vertical-vs-horizontal-scaling
+
+| Feature                | Vertical Scaling                        | Horizontal Scaling                        |
+|------------------------|-----------------------------------------|-------------------------------------------|
+| Definition             | Increasing capacity of a single machine | Adding more machines to the system        |
+| Example                | Upgrading CPU/RAM of a server           | Adding more servers to a cluster          |
+| Hardware Dependency    | High                                    | Low                                       |
+| Cost                   | Expensive at scale                      | Cost-effective for large scale            |
+| Data Consistency       | Low data inconsistency                  | High Data inconsistency                   |
+| Latency                | Low latency                             | High latency                              |
+| Complexity             | Simple to implement                     | More complex (load balancing, etc.)       |
+| Fault Tolerance        | Low (single point of failure)           | High (failure of one node tolerated)      |

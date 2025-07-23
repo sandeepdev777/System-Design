@@ -1,0 +1,82 @@
+[HLD]
+
+1: Fundamentals
+    Serverless and serverful
+    Horizontal and vertical scaling
+    What are threads?
+    What are pages?
+    How does the internet work?
+
+2: Database 
+   SQL vs NoSql Database
+   In-Memory Databases
+   Data replication and migration
+   Data partitioning
+   Sharding
+
+3: Consistency vs availability
+   Data Consistency and its level
+   Isolation and its level
+   CAP theorem
+
+4: Cache
+   What is cache?
+   Write policies: write back, through, and around
+   Replacement policies : LFU, LRU, Segmented, LRU etc.
+   Content Delivery Networks
+
+5: Networking
+   TCP VS UDP
+   What is HTTP(1/2/3) and https
+   websockets
+   webrtc and video streaming
+
+6: Load Balancers
+   Load Balancing algo (stateless and stateful)
+   Consistent hashing
+   Proxy and reverse Proxy
+   rate limiting
+
+7: Message queues
+   Asynchronous processing (kafka, rabbitMQ)
+   Publisher -subscriber model
+
+8: Monolith vs microservices
+   why microservices?
+   concept of 'single point of failure'
+   avoiding cascading failures
+   containerization (docker)
+   migrating to microservices
+
+9: Monitoring and logging
+   logging events and Monitoring metrics
+   anomaly detection
+
+10: Security
+   Tokens and auth
+   SSO and OAuth
+   Acess control lists and rule engines
+   encryption
+
+11: System design tradeoffs
+   push vs pull architecture
+   Consistency vs availability
+   sql vs NoSql Databases
+   Memory VS latency
+   Throughput vs latency
+   accuracy vs latency
+
+Resources for lld and HLD
+
+1: https://github.com/ashishps1/awesome-system-design-resources?tab=readme-ov-file
+2: https://github.com/donnemartin/system-design-primer?tab=readme-ov-file#step-1-review-the-scalability-video-lecture
+3: https://github.com/binhnguyennus/awesome-scalability?tab=readme-ov-file
+4: https://bit.ly/SystemDesignRoadmap
+
+
+   
+
+
+
+
+

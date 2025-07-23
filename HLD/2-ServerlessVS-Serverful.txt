@@ -1,0 +1,48 @@
+There are two main ways to run applications in the cloud: traditional servers and serverless computing. 
+Traditional servers require you to manage everything, from hardware to scaling. Means developers has to manage the servers.
+Serverless computing lets you focus on writing code, while the cloud provider handling the infrastructure.
+
+
+Basically in a serverless setup:
+
+Developers write functions: Code is deployed as small, discrete units of functionality, typically in the form of event-driven functions.
+
+Cloud providers manage servers: The cloud provider (e.g., AWS, Azure, Google Cloud) automatically provisions, scales, and manages 
+                                the infrastructure needed to execute the code.
+
+Billing is based on execution: Users are charged only for the compute resources they consume, 
+                              typically measured by the number of executions, duration of the execution, and the amount of memory used.
+
+
+
+So the key characteristics of serverless architecture is:
+
+No server management: Developers don't need to worry about server provisioning or maintenance.Hence it increases the productivity of developers.
+
+Pay-per-use: You're billed based on the resources your application consumes, not on pre-purchased capacity. So it is cost efficient .
+
+Auto-scaling: The platform automatically scales your application in response to demand. So it provides better scalability than tarditional servers.
+
+Stateless: Each serverless function is stateless, meaning it doesn't retain any information between invocations. 
+           This allows the cloud provider to scale functions horizontally by running multiple instances of the same function in parallel.
+
+Event-driven: Functions are triggered by events, making it ideal for event-driven architectures.
+
+
+
+Demerits of serverless architecture:
+
+Cold Starts Latency: The first invocation of a serverless function after a period of inactivity may experience higher latency 
+             due to the time it takes to initialize the function’s execution environment. This is known as a "cold start."
+
+Complexity in state management: Since serverless functions are stateless, managing application state across multiple functions or sessions can be challenging.
+
+High dependency on service providers : causing a "vendor lock in situation"(is a situation where a customer becomes heavily reliant on a specific vendor's products or services, 
+                                       making it difficult and costly to switch to a competitor's offerings)
+
+Debugging and Monitoring: Debugging and monitoring serverless applications can be complex due to their 
+                        distributed and event-driven nature.                 
+
+Resource Limits: Serverless functions typically have execution time limits. Each function has limits on the amount of memory and CPU it can use.                                                  
+
+
