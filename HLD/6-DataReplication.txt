@@ -1,0 +1,10 @@
+Data replication or database replication: means copy the data to each or multiple hosts/server present inside the network.
+
+Merits of data replication:
+1: Reduces the latency : since the data is present a each server or host so accessing data takes lesser time.
+2: Helps in backing up (recovery) od data.
+3: scalability: since data is present on mutiple servers so it can handle high workload.
+4: fault tolerance : if one server fails another can handle.
+
+types of data replication/ data replication stratigies: https://www.geeksforgeeks.org/system-design/database-replication-and-their-types-in-system-design/
+
